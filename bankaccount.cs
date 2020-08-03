@@ -75,6 +75,7 @@ public virtual void Withdraw(double amount){
   else{
     Console.WriteLine("Error");
   }
+  Console.WriteLine(Balance);
  
 
 

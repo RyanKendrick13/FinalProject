@@ -15,16 +15,16 @@ class MainClass {
 
     SavingsAccount p1 = new SavingsAccount();
 
-    p1.Balance=3000;
-    p1.Withdraw(3500);
+    p1.Balance=2800;
+    p1.Withdraw(50);
     p1.CalculateInterest();
+    p1.Deposit(100);
+
 
     CheckingAccount p2 = new CheckingAccount();
-    p2.Balance=600;
+    p2.Balance=1000;
     p2.Withdraw(20);
-    SavingsAccount p5 = new SavingsAccount();
-    p5.Balance=12000;
-    p5.Withdraw(10);
+    p2.CalculateInterest();
     
   
 
